@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+main{
+    background-color: #f2f3f7;
+}
 .header-top{
     background-color: rgba(0, 0, 0, 0.925);
     height: 11vh;
@@ -12,6 +15,9 @@
 .logo-txt{
     position: relative;
     left: -20px;
+}
+.icon-color{
+    color: tomato;
 }
 /* search box style  */
 .search-box{
@@ -47,6 +53,26 @@
    left: 35%;
    top: -50%;
 }
+/* navbar */
+
+.nav-custom{
+    margin-left: 40%;
+}
+.nav-link-custom{
+    width: 130px;
+    font-size: small;
+}
+.nav-list{
+    margin-left: -50px;
+}
+.nav-list li{
+    list-style-type: none;
+}
+/* carusol */
+.carusol-img{
+    height: 359px;
+}
+
 /* media query  */
 @media only screen and (max-width: 769px) {
     .header-top{
@@ -59,6 +85,16 @@
         width: 80%;
         flex: 1;
     }
+    .nav-list{
+        display: none;
+    }
+    i.fa.fa-bars.fs-4.mt-1.icon-color {
+        display: none;
+    }
+    
+    .col-lg-6.col-md-12.ms-4.mt-3.carusol {
+    width: 95%;
+}
 } 
 /* for small devices  */
 @media only screen and (max-width: 577px){

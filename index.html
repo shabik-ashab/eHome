@@ -2,103 +2,241 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toolooks</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- bootstrap style  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toolooks</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- font awesome style  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <!-- bootstrap style  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <div class="header-top container-fluid">
-            <!-- bootsrtap grid layout start -->
-            <div class="container-fluid">
-                <!-- grid row start -->
-                <div class="row">
-                    <!-- grid colum 1 -->
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="header-logo  container-fluid">
-                            <!-- row start for logo and search -->
-                           <div class="row">
-                               <!-- col start  -->
-                            <div class="col-md-4 col-sm-12 d-flex align-items-center">
-                                <img class="logo-img ms-3" src="image/logo.png" alt="">
-                                <span class="text-light fw-bold fs-4 logo-txt">Toolooks</span>
-                            </div>
-                            <!-- col start  -->
-                            <div class="col-md-8 col-sm-12">
-                                <div class="search-box mt-3">
-                                    <input class="" type="search" name="" id="" placeholder="Search Your Product">
-                                   <button type="submit">
-                                    <i class="fa fa-search " aria-hidden="false"></i>  
-                                   </button>  
-                                </div>
-                            </div>
-                           </div>
-                           <!-- row end or logo and search -->
-                        </div>
-                    </div>
-                    <!-- grid column 2 -->
-                    <div class="col-lg-6 col-md-12">
-                      <div>
-                        <div class="text-light mt-4 ms-3 container-fluid">
-                            <!-- row start for dropdown and contact  -->
-                            <div class="row">
-                                <!-- col start  -->
-                                <div class="col-md-7 col-sm-12">
-                                    <i class="fa fa-volume-control-phone me-2 fs-4" aria-hidden="false"></i>
-                            <span><small>+ 123 456 78910</small></span>
-                             <i class="fa fa-truck ms-5 me-2 fs-4" aria-hidden="true"></i>
-                             <span><small>Track Your order</small></span>
-                                </div>
-                                <!-- col end  -->
-                             <!-- 2 dropdown menu col start -->
-                            <div class="col-md-5 col-sm-12">
-                                <div class="dropdown dropdown-currency">
-                                    <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                      & USD 
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
-                                      <li><a class="dropdown-item " href="#">CAD</a></li>
-                                      <li><a class="dropdown-item" href="#">RMB</a></li>
-                                      <li><a class="dropdown-item" href="#">TK</a></li>
-                                    </ul>
-                                  </div>
-                                  <div class="dropdown dropdown-language">
-                                    <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                      English
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                      <li><a class="dropdown-item" href="#">Bangla</a></li>
-                                      <li><a class="dropdown-item" href="#">Mandarin</a></li>
-                                    </ul>
-                                  </div>
-                            </div>
-                            <!-- dropdown menu column end  -->
-                            </div>
-                            <!-- row end for dropdown and contact  -->
-                        </div>
-                       
-                      </div>
-                        
-                    </div>
+  <header>
+    <div class="header-top container-fluid">
+      <!-- bootsrtap grid layout start -->
+      <div class="container-fluid">
+        <!-- grid row start -->
+        <div class="row">
+          <!-- grid colum 1 -->
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="header-logo  container-fluid">
+              <!-- row start for logo and search -->
+              <div class="row">
+                <!-- col start  -->
+                <div class="col-md-4 col-sm-12 d-flex align-items-center">
+                  <img class="logo-img ms-3" src="image/logo.png" alt="">
+                  <span class="text-light fw-bold fs-4 logo-txt">Toolooks</span>
                 </div>
-                <!-- grid row end -->
+                <!-- col start  -->
+                <div class="col-md-8 col-sm-12">
+                  <div class="search-box mt-3">
+                    <input class="" type="search" name="" id="" placeholder="Search Your Product">
+                    <button type="submit">
+                      <i class="fa fa-search " aria-hidden="false"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- row end or logo and search -->
             </div>
-            <!-- grid layout end for header top -->
-        </div>
-        
-    </header>
+          </div>
+          <!-- grid column 2 -->
+          <div class="col-lg-6 col-md-12">
+            <div>
+              <div class="text-light mt-4 ms-3 container-fluid">
+                <!-- row start for dropdown and contact  -->
+                <div class="row">
+                  <!-- col start  -->
+                  <div class="col-md-7 col-sm-12">
+                    <i class="fa fa-volume-control-phone me-2 fs-4" aria-hidden="false"></i>
+                    <span><small>+ 123 456 78910</small></span>
+                    <i class="fa fa-truck ms-5 me-2 fs-4" aria-hidden="true"></i>
+                    <span><small>Track Your order</small></span>
+                  </div>
+                  <!-- col end  -->
+                  <!-- 2 dropdown menu col start -->
+                  <div class="col-md-5 col-sm-12">
+                    <div class="dropdown dropdown-currency">
+                      <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        & USD
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item " href="#">CAD</a></li>
+                        <li><a class="dropdown-item" href="#">RMB</a></li>
+                        <li><a class="dropdown-item" href="#">TK</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown dropdown-language">
+                      <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#">Bangla</a></li>
+                        <li><a class="dropdown-item" href="#">Mandarin</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- dropdown menu column end  -->
+                </div>
+                <!-- row end for dropdown and contact  -->
+              </div>
 
-    <!-- bootstrap javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+            </div>
+
+          </div>
+        </div>
+        <!-- grid row end -->
+      </div>
+      <!-- grid layout end for header top -->
+    </div>  
+  </header>
+  <main class="">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <div class="row ms-5">
+          <div class="col-lg-2  ms-4">
+            <a class="navbar-brand" href="#">All CATAGORIES</a>
+            <i class="fa fa-bars fs-4 mt-1 icon-color" aria-hidden="true"></i>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="col-lg-9">
+            <div class="collapse navbar-collapse ms-4" id="navbarNavAltMarkup">
+              <div class="navbar-nav ">
+                <a class="nav-link nav-link-custom active" aria-current="page" href="#">Ready To Shop</a>
+                <a class="nav-link nav-link-custom " href="#">Trade shows</a>
+                <a class="nav-link nav-link-custom" href="#">Equipment</a>
+                <a class="nav-link nav-link-custom" href="#">Buyer</a>
+                <a class="nav-link nav-link-custom" href="#">Centeral</a>
+                <a class="nav-link nav-link-custom" href="#">Sell on Toolooks</a>
+                <a class="nav-link nav-link-custom" href="#">Help</a>
+              </div>
+
+              <div class=" nav-icon d-flex align-items-center">
+                <i class="fa fa-heart mx-2" aria-hidden="true"></i>
+                <i class="material-icons mx-2">
+                  shopping_bag
+                </i>
+                <i class="fa fa-user mx-2" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
+    <section class="container bg-white mt-5">
+      <div class="hero-section row">
+        <!-- col start  -->
+        <div class="col-lg-2 col-md-8">
+          <ul class="hero-list ">
+            <li class="d-flex mt-3 align-items-center icon-color">
+              <i class="fa fa-female  me-3 " aria-hidden="true"></i>
+             Women's Dress 
+             
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="fa fa-home me-3" aria-hidden="true"></i>
+             Interior Decorate
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="fa fa-television me-3" aria-hidden="true"></i>
+              Electronic Gadget
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="fa fa-camera me-3" aria-hidden="true"></i>
+             Smart Camera 
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="fa fa-car me-3" aria-hidden="true"></i>
+             Auto Mobile
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="fa fa-mobile me-3" aria-hidden="true"></i>
+             Smart Phone 
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="material-icons me-3">
+                checkroom
+              </i>
+             Smart T-shirt 
+            </li>
+            <li class="d-flex mt-4 align-items-center">
+              <i class="fa fa-laptop me-3" aria-hidden="true"></i>
+             Macbook Laptop
+            </li>
+          </ul>
+        </div>
+        <!-- col end  -->
+        <!-- col start  -->
+        <div class="col nav-list col-lg-1 ">
+          <ul>
+            <li><i class="material-icons ms-5 mt-3 ">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+            <li><i class="material-icons ms-5 mt-3">navigate_next</i></li>
+          </ul>
+        </div>
+        <!-- col end  -->
+        <!-- col start  -->
+        <div class="col-lg-6 col-md-12 ms-4 mt-3 carusol">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/carusol/img1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/carusol/img.jpg" class="d-block w-100 carusol-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/carusol/img2.jpg" class="d-block w-100 carusol-img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- col end  -->
+        <!-- col start  -->
+        <div class="col">
+          
+        </div>
+        <!-- col end  -->
+
+      </div>
+    </section>
+  </main>
+
+  <!-- bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
