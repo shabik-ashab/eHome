@@ -189,6 +189,9 @@ i.material-icons.star-icon{
     background-color: tomato;
     border-radius: 30px;
 }
+.subscribe-img>img{
+    height: 40vh;
+}
 
 /* media query  */
 /* media query for midium devices  */
