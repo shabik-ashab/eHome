@@ -192,6 +192,26 @@ i.material-icons.star-icon{
 .subscribe-img>img{
     height: 40vh;
 }
+/* footer section  */
+.footer-info{
+    background-color: #0a0b2e;
+    font-size: 12px;
+}
+.footer-logo{
+    position: relative;
+    left: -8%;
+}
+.follow-icon>i{
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+/* copyright  */
+.copyright-section{
+    color: dimgray;
+    font-size: 13px;
+}
 
 /* media query  */
 /* media query for midium devices  */
