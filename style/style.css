@@ -6,7 +6,7 @@ main{
     background-color: #f2f3f7;
 }
 .header-top{
-    background-color: rgba(0, 0, 0, 0.925);
+    /* background-color: rgba(0, 0, 0, 0.925); */
     height: 11vh;
 }
 /* logo style  */
@@ -23,26 +23,46 @@ main{
 /* search box style  */
 .search-box{
     background-color: white;
-    margin-left: 10%;
-    height: 40px;
-    width: 430px;
+    margin-left: 5%;
+    height: 35px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid tomato;
+    
 }
 .search-box > input{
     flex: 1;
-    height: 40px;
-    width: 390px;
+    height: 25px;
+    width: 314px;
     border: none;
     outline: none;
     font-size: 16px;
+    border-radius: 30px;
+    font-size: 10px;
+    padding-left: 20px;
 }
 .search-box > button{
-    background-color: white;
-    color: tomato;
+    background-color: tomato;
+    color: white;
     border: none;
-    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-right: 19px;
+    font-size: 14px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
 }
 /* header second part style  */
-
+.contact-section{
+    color: dimgray;
+}
+button#dropdownMenuButton1 {
+    color: dimgray;
+}
+button#dropdownMenuButton2 {
+    color: dimgray;
+}
 .fa-volume-control-phone{
     transform: rotateY(0deg) rotate(-45deg);
 }
@@ -72,8 +92,8 @@ a.navbar-brand {
     list-style-type: none;
 }
 .nav-icon.d-flex.align-items-center{
-    
-    
+    position: relative;
+    left: 4%;
 }
 /* carusol */
 .carusol-img{
