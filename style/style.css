@@ -55,13 +55,15 @@ main{
    top: -50%;
 }
 /* navbar */
-
+a.navbar-brand {
+    font-size: 16px;
+}
 .nav-custom{
     margin-left: 40%;
 }
 .nav-link-custom{
-    width: 130px;
-    font-size: small;
+    /* width: 120px; */
+    font-size: 14px;
 }
 .nav-list{
     margin-left: -150px;
@@ -70,8 +72,8 @@ main{
     list-style-type: none;
 }
 .nav-icon.d-flex.align-items-center{
-    position: relative;
-    left: -50px;
+    
+    
 }
 /* carusol */
 .carusol-img{
